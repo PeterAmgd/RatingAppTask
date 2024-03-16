@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "9eb37725-83f4-40e0-9c23-9290525f6b67",
+		"name": "TestApis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28976179",
+		"_collection_link": "https://www.postman.com/blue-eclipse-871344/workspace/test/collection/28976179-9eb37725-83f4-40e0-9c23-9290525f6b67?action=share&source=collection_link&creator=28976179"
+	},
+	"item": [
+		{
+			"name": "clients",
+			"item": [
+				{
+					"name": "get users with rating and comments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/rate-users-Api",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"rate-users-Api"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "client post rating and comments for users",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/rate-users-Api",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"rate-users-Api"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "get clients with rating and comments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/rate-users-Api",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"rate-users-Api"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user post rating and comments for clients",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_id",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "comment",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/rate-users-Api",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"rate-users-Api"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
